@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
-    const apiUrl = `https://aniwatch-api-net.vercel.app/api/v2/hianime/anime/${animeIdFromUrl}`;
+    const apiUrl = `https://aniwatch-api-y52w.onrender.com/api/v2/hianime/anime/${animeIdFromUrl}`;
 
     // Fetch anime details from the API
     fetch(apiUrl)
