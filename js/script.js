@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return description;
     }
 
-    fetch('https://aniwatch-api-y52w.onrender.com/v2/hianime/home')
+    fetch('https://api-zoro-five.vercel.app/anime/zoro/')
         .then(response => response.json())
         .then(data => {
             if (!data.success || !data.data) {
