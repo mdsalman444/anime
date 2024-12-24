@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return description;
     }
 
-    fetch('https://api-zoro-five.vercel.app/anime/zoro/')
+    fetch('https://hi-api-ten.vercel.app/api/v2/hianime')
         .then(response => response.json())
         .then(data => {
             if (!data.success || !data.data) {
